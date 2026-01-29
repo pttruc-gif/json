@@ -1,0 +1,840 @@
+{
+  "summary": {
+    "total_problems_checked": 482,
+    "exact_duplicates_groups": 12,
+    "similar_pairs_found": 88,
+    "similarity_threshold_used": 0.88,
+    "normalized": true
+  },
+  "exact_duplicates": [
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "43",
+        "44"
+      ],
+      "preview": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1/2$, $x_{n+1} = x_n - x_n^2$. Chứng minh rằng $\\lim_{n \\to \\infty} nx_n = 1$.",
+      "normalized_text_length": 50
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "63",
+        "64"
+      ],
+      "preview": "Dãy số {$a_n$} được xác định bởi $a_1 > 0, a_2 > 0$ và $a_{n+1} = 2/(a_n + a_{n-1})$. Chứng minh rằng dãy số {$a_n$} hội tụ và tìm giới hạn của dãy số đó.",
+      "normalized_text_length": 96
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "87",
+        "98"
+      ],
+      "preview": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = \\alpha, x_2 = \\beta, \\quad ax_{n+1} + bx_n + cx_{n-1} = \\gamma.\\eta^n, \\quad n \\ge 2, n \\in \\mathbb{N}^*.\n$$",
+      "normalized_text_length": 29
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "89",
+        "90"
+      ],
+      "preview": "Tìm dãy số {$x_n$} thoả mãn các điều kiện\n\n$$\nx_1 = a, \\quad x_{n+1} = \\frac{x_n^2 + d}{2x_n}, \\quad d \\ge 0. \\tag{1.5}\n$$",
+      "normalized_text_length": 36
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "92",
+        "93"
+      ],
+      "preview": "Tìm $x_n$ biết rằng\n\n$$\nx_0 = 1, x_1 = 4, x_{n+2} = 2(2n+3)^2 x_{n+1} - 4(n+1)^2 (2n+1)(2n+3) x_n, \\quad n \\ge 0.\n$$",
+      "normalized_text_length": 13
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "100",
+        "101"
+      ],
+      "preview": "Tìm $x_n$ thoả mãn điều kiện\n\n$$\nx_1 = 2, x_{n+1} = x_n + 3n^2 + 3n - 3, n \\in \\mathbb{N}^*.\n$$",
+      "normalized_text_length": 22
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 5,
+      "ids": [
+        "112",
+        "113",
+        "114",
+        "115",
+        "116"
+      ],
+      "preview": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "normalized_text_length": 15
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "144",
+        "176"
+      ],
+      "preview": "Cho dãy số $\\{x_n\\}$, $n=1, 2, \\dots$ xác định như sau:\n\n$$\n\\begin{cases}\nx_1 = 1 \\\\\nx_{n+1} = x_n + \\frac{x_n^2}{1999}\n\\end{cases}\n$$\n\nTìm\n\n$$\n\\lim_{n \\to +\\infty} \\left( \\frac{x_1}{x_2} + \\frac{x_2}...",
+      "normalized_text_length": 34
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "148",
+        "343"
+      ],
+      "preview": "Cho dãy số {$x_n$} xác định bởi:\n\n$$\n\\begin{cases} x_1 = \\alpha, \\alpha > 1 \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n = 2, 3, \\dots \\end{cases}\n$$\n\n$$\n\\text{Chứng minh rằng } \\sqrt{\\alpha^2 + 2n} < x_n ...",
+      "normalized_text_length": 27
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "171",
+        "172"
+      ],
+      "preview": "Tính các tổng sau:\n\n$$\nT_S = \\sum_{k=1}^{n} \\sin kx, \\quad T_C = \\sum_{k=1}^{n} \\cos kx.\n$$",
+      "normalized_text_length": 18
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "355",
+        "356"
+      ],
+      "preview": "Chứng minh rằng: Nếu\n\n$$\n\\lim_{n \\to +\\infty} a_n = a \\text{ thì } \\lim_{n \\to +\\infty} \\frac{a_1 + a_2 + \\dots + a_n}{n} = a\n$$",
+      "normalized_text_length": 20
+    },
+    {
+      "type": "exact_duplicate",
+      "count": 2,
+      "ids": [
+        "362",
+        "369"
+      ],
+      "preview": "Tính $\\lim_{n \\to +\\infty} \\frac{1}{\\sqrt{n}} \\left(1 + \\frac{1}{\\sqrt{2}} + \\dots + \\frac{1}{\\sqrt{n}}\\right)$",
+      "normalized_text_length": 4
+    }
+  ],
+  "similar_pairs": [
+    {
+      "type": "similar",
+      "id_a": "43",
+      "id_b": "44",
+      "similarity": 1.0,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1/2$, $x_{n+1} = x_n - x_n^2$. Chứng minh rằng $\\lim_{n \\to \\infty} nx_n =...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1$, $x_{n+1} = \\sin(x_n)$. Chứng minh rằng $\\lim_{n \\to \\infty} \\sqrt{n}x_..."
+    },
+    {
+      "type": "similar",
+      "id_a": "63",
+      "id_b": "64",
+      "similarity": 1.0,
+      "preview_a": "Dãy số {$a_n$} được xác định bởi $a_1 > 0, a_2 > 0$ và $a_{n+1} = 2/(a_n + a_{n-1})$. Chứng minh rằng dãy số {$a_n$} hội...",
+      "preview_b": "Dãy số {$a_n$} được xác định bởi $a_1 > 0, a_2 > 0$ và $a_{n+1} = \\sqrt{a_n} + \\sqrt{a_{n-1}}$. Chứng minh rằng dãy số {..."
+    },
+    {
+      "type": "similar",
+      "id_a": "89",
+      "id_b": "90",
+      "similarity": 1.0,
+      "preview_a": "Tìm dãy số {$x_n$} thoả mãn các điều kiện\n\n$$\nx_1 = a, \\quad x_{n+1} = \\frac{x_n^2 + d}{2x_n}, \\quad d \\ge 0. \\tag{1.5}\n...",
+      "preview_b": "Tìm dãy số {$x_n$} thoả mãn các điều kiện\n\n$$\nx_1 = a, \\quad x_{n+1} = \\frac{2x_n}{1 + dx_n^2}, \\quad n \\in \\mathbb{N}^*..."
+    },
+    {
+      "type": "similar",
+      "id_a": "92",
+      "id_b": "93",
+      "similarity": 1.0,
+      "preview_a": "Tìm $x_n$ biết rằng\n\n$$\nx_0 = 1, x_1 = 4, x_{n+2} = 2(2n+3)^2 x_{n+1} - 4(n+1)^2 (2n+1)(2n+3) x_n, \\quad n \\ge 0.\n$$",
+      "preview_b": "Tìm $x_n$ biết rằng\n\n$$\nx_1 = 0, x_2 = 1, x_3 = 3, x_n + 11x_{n-2} = 7x_{n-1} + 5x_{n-3}, n \\ge 4.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "100",
+      "id_b": "101",
+      "similarity": 1.0,
+      "preview_a": "Tìm $x_n$ thoả mãn điều kiện\n\n$$\nx_1 = 2, x_{n+1} = x_n + 3n^2 + 3n - 3, n \\in \\mathbb{N}^*.\n$$",
+      "preview_b": "Tìm $x_n$ thoả mãn điều kiện\n\n$$\nx_1 = 2, x_{n+1} = x_n + 2n, n \\in \\mathbb{N}^*.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "112",
+      "id_b": "113",
+      "similarity": 1.0,
+      "preview_a": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "preview_b": "Chứng minh rằng\n\n$$\nF_1 + F_3 + \\cdots + F_{2n-1} = F_{2n}\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "112",
+      "id_b": "114",
+      "similarity": 1.0,
+      "preview_a": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "preview_b": "Chứng minh rằng\n\n$$\nF_2 + F_4 + \\cdots + F_{2n} = F_{2n+1} - 1.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "112",
+      "id_b": "115",
+      "similarity": 1.0,
+      "preview_a": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "preview_b": "Chứng minh rằng\n\n$$\nF_1 - F_2 + F_3 - F_4 + \\cdots + (-1)^{n+1} F_n = (-1)^{n+1} F_{n-1} + 1.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "112",
+      "id_b": "116",
+      "similarity": 1.0,
+      "preview_a": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "preview_b": "Chứng minh rằng\n\n$$\nF_1^2 + F_2^2 + \\cdots + F_n^2 = F_n F_{n+1}.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "144",
+      "id_b": "176",
+      "similarity": 1.0,
+      "preview_a": "Cho dãy số $\\{x_n\\}$, $n=1, 2, \\dots$ xác định như sau:\n\n$$\n\\begin{cases}\nx_1 = 1 \\\\\nx_{n+1} = x_n + \\frac{x_n^2}{1999}\n...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$, $n = 1, 2, \\dots$ xác định như sau:\n\n$$\n\\begin{cases} x_1 = \\alpha, \\alpha > 0 \\\\ x_{n+1} = x_n + ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "148",
+      "id_b": "343",
+      "similarity": 1.0,
+      "preview_a": "Cho dãy số {$x_n$} xác định bởi:\n\n$$\n\\begin{cases} x_1 = \\alpha, \\alpha > 1 \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n = 2,...",
+      "preview_b": "Cho dãy số {$x_n$} xác định bởi:\n\n$$\nx_n = \\left(1 + \\frac{1}{n^2}\\right) \\left(1 + \\frac{2}{n^2}\\right) \\cdots \\left(1 ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "171",
+      "id_b": "172",
+      "similarity": 1.0,
+      "preview_a": "Tính các tổng sau:\n\n$$\nT_S = \\sum_{k=1}^{n} \\sin kx, \\quad T_C = \\sum_{k=1}^{n} \\cos kx.\n$$",
+      "preview_b": "Tính các tổng sau:\n\n$$\n(i) \\quad T_{S^2} = \\sin^2 x + \\sin^2 2x + \\sin^2 3x + \\cdots + \\sin^2 nx = \\sum_{k=1}^{n} \\sin^2..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "284",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{Ví dụ 1.16: Tìm CTTQ của dãy } (u_n) : \\begin{cases} u_0 = 1; u_1 = 3 \\\\ u_n - 4u_{n-1} + 4u_{n-2} = 3.2^n \\end..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "285",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{Ví dụ 1.17: Tìm CTTQ của dãy } (u_n) : \\begin{cases} u_1 = 0, u_2 = 1, u_3 = 3, \\\\ u_n = 7u_{n-1} - 11u_{n-2} +..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "287",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{Ví dụ 1.19: Tìm CTTQ của dãy } (u_n) : \\begin{cases} u_1 = 1 \\\\ u_n = \\frac{2u_{n-1}}{3u_{n-1} + 4} \\quad \\fora..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "332",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{(18)} \\qquad \\begin{array}{l} \\text{Cho } \\alpha \\in \\left(0, \\frac{\\pi}{2}\\right). \\text{ Tìm} \\\\ \\\\ \\lim_{n \\..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "337",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\textcircled{3} \\ Cho f: N \\to Z\n$$\n$$\nn \\mapsto f(n) \\text{ thỏa}\n$$\n$$\n\\begin{cases}\nf(m+n) - f(m) - f(n) \\in \\{0,1..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "341",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{(27)} \\quad \\begin{array}{l} \\text{a. Chứng minh rằng: } \\cos x \\ge 1 - \\frac{x^2}{2}, \\forall x \\ge 0 \\\\ \\text..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "345",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\text{(31) Tìm } \\lim_{n \\to +\\infty} \\frac{1}{1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{n}}\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "396",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\textbf{Bài 4: Dãy } (x_n) \\text{ thỏa } x_1 = 2; x_{n+1} = \\frac{1}{2}(\\sqrt{3x_n^2 + n^2} + 2).\n$$\n\n$$\na. \\text{Tín..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "432",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\textbf{Bài 6: Cho dãy } (x_n) \\text{ biết } x_1 = 1, x_{n+1} = \\sqrt{(x_1+1)(x_2+\\frac{1}{2})(x_3+\\frac{1}{3})...(x_..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "459",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$\n\\textcolor{red}{\\text{Bài 25: Cho } (a_n)_{n \\ge 0} \\text{ là một dãy số thực thỏa mãn } a_0 = 1 \\text{ và } a_{n+1} ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "252",
+      "id_b": "460",
+      "similarity": 1.0,
+      "preview_a": "$$\n\\text{Dãy số } \\{a_n\\} \\text{ được xác định bởi } a_1 = 1 \\text{ và } a_{n+1} = a_n + \\frac{1}{\\sqrt{a_n}}, n \\ge 1, ...",
+      "preview_b": "$$ \\textcolor{red}{\\text{Bài 26: Cho } (x_n)_{n \\ge 1} \\text{ là dãy số tăng và tồn tại số } a > 2 \\text{ thỏa mãn } x_{..."
+    },
+    {
+      "type": "similar",
+      "id_a": "355",
+      "id_b": "356",
+      "similarity": 1.0,
+      "preview_a": "Chứng minh rằng: Nếu\n\n$$\n\\lim_{n \\to +\\infty} a_n = a \\text{ thì } \\lim_{n \\to +\\infty} \\frac{a_1 + a_2 + \\dots + a_n}{n...",
+      "preview_b": "Chứng minh rằng: Nếu\n\n$$\n\\lim_{n \\to +\\infty} a_n = a \\text{ thì } \\lim_{n \\to +\\infty} \\frac{na_1 + (n-1)a_2 + \\dots + ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "362",
+      "id_b": "369",
+      "similarity": 1.0,
+      "preview_a": "Tính $\\lim_{n \\to +\\infty} \\frac{1}{\\sqrt{n}} \\left(1 + \\frac{1}{\\sqrt{2}} + \\dots + \\frac{1}{\\sqrt{n}}\\right)$",
+      "preview_b": "Tính $\\lim_{n \\to +\\infty} n(\\sqrt{n} - 1)$"
+    },
+    {
+      "type": "similar",
+      "id_a": "42",
+      "id_b": "247",
+      "similarity": 0.9928,
+      "preview_a": "Tìm tất c các giá trị của $a$ để dãy số $\\{x_n\\}$ xác định bởi $x_0 = a, x_{n+1} = 2 - x_n^2$ có giới hạn hữu hạn.",
+      "preview_b": "Tìm tất cả các giá trị của $a$ để dãy số $\\{x_n\\}$ xác định bởi $x_0 = a, x_{n+1} = 2 - x_n^2$ có giới hạn hữu hạn."
+    },
+    {
+      "type": "similar",
+      "id_a": "73",
+      "id_b": "77",
+      "similarity": 0.9881,
+      "preview_a": "Ví dụ 1. Cho dãy số $(a_n)$ xác định bởi:$$\na_1, a_2 > 0; a_{n+2} = \\sqrt{a_{n+1}} + \\sqrt{a_n}\n$$\n\nChứng minh $(a_n)$ c...",
+      "preview_b": "Ví dụ 5. Cho dãy số $(x_n)$ xác định bởi:\n\n$$\nx_1 = 1; x_2 = -1 \\quad ; \\quad x_{n+2} = x_{n+1}^2 - \\frac{1}{2}x_n.\n$$\n\n..."
+    },
+    {
+      "type": "similar",
+      "id_a": "136",
+      "id_b": "137",
+      "similarity": 0.9881,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ xác định như sau\n\n$$\n\\begin{cases} x_0 = 1996 \\\\ x_{n+1} = \\frac{x_n^2}{1 + x_n} > 0, & n = 0, 1, 2...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ xác định như sau\n\n$$\n\\left\\{ \n\\begin{array}{l}\nx_0 = K \\\\\nx_{n+1} = \\frac{x_n^2}{1+x_n} > 0, \\quad ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "280",
+      "id_b": "292",
+      "similarity": 0.9863,
+      "preview_a": "12: Cho dãy $(u_n): \\begin{cases} u_0 = -1; u_1 = 3 \\\\ u_n - 5u_{n-1} + 6u_{n-2} = 2n^2 + 2n + 1; \\quad \\forall n \\ge 2 ...",
+      "preview_b": "1: Cho dãy $(u_n): \\begin{cases} u_1 = \\frac{1}{2} \\\\ u_n = 2u_{n-1}^2 - 1 \\end{cases} \\forall n \\ge 2$. Xác định CTTQ c..."
+    },
+    {
+      "type": "similar",
+      "id_a": "118",
+      "id_b": "120",
+      "similarity": 0.9744,
+      "preview_a": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}^+$ thỏa mãn điều kiện:\n\n$$\nf(\\sqrt{xy}) = \\sqrt{f(x)f(y)}.\n$$\n\nChứng min...",
+      "preview_b": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}$ thỏa mãn điều kiện:\n\n$$\nf\\left(\\frac{x+y}{2}\\right) = \\sqrt{f(x)f(y)}, ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "13",
+      "similarity": 0.9718,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $(x_n)$ xác định bởi $\\begin{cases} x_1 = 1 \\\\ x_n = \\frac{2n-3}{2n} x_{n-1} ; \\forall n \\ge 2. \\end{cases}$\n..."
+    },
+    {
+      "type": "similar",
+      "id_a": "149",
+      "id_b": "150",
+      "similarity": 0.9697,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ xác định bởi\n\n$$\nx_1 = \\frac{1}{2}, x_{n+1} = x_n^2 + x_n, \\forall n \\in \\mathbb{N}^*.\n$$\n\nTìm phần...",
+      "preview_b": "Cho dãy số {$x_n$} xác định bởi\n\n$$\nx_1 = \\frac{1}{\\alpha}, x_{n+1} = x_n^2 + x_n, \\forall n \\in \\mathbb{N}^*, 0 < \\alph..."
+    },
+    {
+      "type": "similar",
+      "id_a": "178",
+      "id_b": "179",
+      "similarity": 0.9691,
+      "preview_a": "Cho $\\beta > 0$ và dãy số {$x_n$} xác định bởi công thức\n\n$$\n\\begin{cases} x_0 = \\alpha, \\alpha > 0 \\\\ x_n = \\frac{1}{2}...",
+      "preview_b": "Cho $\\beta > 0$ và dãy số $\\{x_n\\}$ xác định bởi công thức\n\n$$\n\begin{cases} x_0 = \\alpha, \\alpha > 0 \\\\ x_n = \\frac{1}{k..."
+    },
+    {
+      "type": "similar",
+      "id_a": "112",
+      "id_b": "347",
+      "similarity": 0.9677,
+      "preview_a": "Chứng minh rằng\n\n$$\nF_1 + F_2 + \\cdots + F_n = F_{n+2} - 1.\n$$",
+      "preview_b": "$$\n\\textcircled{33} \\quad \\text{Cho dãy số } \\{x_n\\} \\text{ thỏa: } \\begin{cases} 0 < x_n < 1 \\\\ x_{n+1} (1 - x_n) \\ge \\..."
+    },
+    {
+      "type": "similar",
+      "id_a": "269",
+      "id_b": "270",
+      "similarity": 0.9677,
+      "preview_a": "1: Xác định số hang tổng quát của dãy số ($u_n$) được xác định bởi:\n\n$$\nu_1 = 1, \\quad u_n = u_{n-1} - 2 \\quad \\forall n...",
+      "preview_b": "2: Xác định số họng tổng quát của dãy số ($u_n$) được xác định bởi:\n\n$$\nu_1 = 3, \\quad u_n = 2u_{n-1} \\quad \\forall n \\g..."
+    },
+    {
+      "type": "similar",
+      "id_a": "85",
+      "id_b": "87",
+      "similarity": 0.9667,
+      "preview_a": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = \\alpha, x_2 = \\beta, \\ ax_{n+1} + bx_n + cx_{n-1} = 0, \\ n \\in \\mathbb...",
+      "preview_b": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = \\alpha, x_2 = \\beta, \\quad ax_{n+1} + bx_n + cx_{n-1} = \\gamma.\\eta^n,..."
+    },
+    {
+      "type": "similar",
+      "id_a": "85",
+      "id_b": "98",
+      "similarity": 0.9667,
+      "preview_a": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = \\alpha, x_2 = \\beta, \\ ax_{n+1} + bx_n + cx_{n-1} = 0, \\ n \\in \\mathbb...",
+      "preview_b": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = 1, \\quad x_{n+1} = 3x_n + 2^n, \\quad n \\in \\mathbb{N}^*.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "73",
+      "id_b": "75",
+      "similarity": 0.9639,
+      "preview_a": "Ví dụ 1. Cho dãy số $(a_n)$ xác định bởi:$$\na_1, a_2 > 0; a_{n+2} = \\sqrt{a_{n+1}} + \\sqrt{a_n}\n$$\n\nChứng minh $(a_n)$ c...",
+      "preview_b": "Ví dụ 3. Cho dãy $(x_n)$ xác định bởi :\n\n$$\n\\begin{cases} x_0 = 1; x_1 = 5 \\\\ x_{n+2} = \\frac{x_{n+1} + \\sqrt{x_n^2 + 6}..."
+    },
+    {
+      "type": "similar",
+      "id_a": "89",
+      "id_b": "166",
+      "similarity": 0.96,
+      "preview_a": "Tìm dãy số {$x_n$} thoả mãn các điều kiện\n\n$$\nx_1 = a, \\quad x_{n+1} = \\frac{x_n^2 + d}{2x_n}, \\quad d \\ge 0. \\tag{1.5}\n...",
+      "preview_b": "Tìm dãy số {$x_n$} thoả mãn các điều kiện\n\n$$\nx_1 = 1, x_{n+1} = \\frac{x_n^2 + 4}{2x_n}.\n$$63"
+    },
+    {
+      "type": "similar",
+      "id_a": "282",
+      "id_b": "286",
+      "similarity": 0.96,
+      "preview_a": "14: Tìm CTTQ của dãy số $(u_n)$:\n$$\n\\begin{cases}\nu_0 = -1; u_1 = 3 \\\\\nu_n - 4u_{n-1} + 3u_{n-2} = 5.2^n \\quad \\forall n...",
+      "preview_b": "18: Tìm CTTQ của dãy số $(u_n), (v_n)$: $$ \\begin{cases} u_0 = 2; & u_n = 2u_{n-1} + v_{n-1} \\\\ v_0 = 1; & v_n = u_{n-1}..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "32",
+      "similarity": 0.9556,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $(x_n)$, xác định bởi: $$ \\begin{cases} x_1 = 1 \\\\ x_{n+1} = 1 + \\frac{2018}{1+x_n}, n = 1, 2, \\dots \\end{cas..."
+    },
+    {
+      "type": "similar",
+      "id_a": "109",
+      "id_b": "110",
+      "similarity": 0.9526,
+      "preview_a": "Cho {$x_n$}, $x_1 = a > 0$ là một cấp số cộng công sai $d > 0$ được viết trên một dòng theo thứ tự từ bé đến lớn. Ta tạo...",
+      "preview_b": "Cho {$x_n$}, $x_1 = a > 0$ là một cấp số nhân công bội q được viết trên một dòng theo thứ tự từ bé đến lớn. Ta tạo ra mộ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "275",
+      "id_b": "276",
+      "similarity": 0.9524,
+      "preview_a": "7: Tìm CTTQ của dãy $(u_n)$: $$ \\begin{cases} u_1 = -2 \\\\ u_n = 5u_{n-1} + 2.3^n - 6.7^n + 12 \\end{cases} ; n = 2,3,... ...",
+      "preview_b": "8: Tìm CTTQ của dãy $(u_n)$: $$ \\begin{cases} u_1 = 1 \\\\ u_n = 2u_{n-1} + 3^n - n; \\quad \\forall n \\ge 2 \\end{cases} $$"
+    },
+    {
+      "type": "similar",
+      "id_a": "183",
+      "id_b": "184",
+      "similarity": 0.9515,
+      "preview_a": "Cho dãy số {$x_n$} xác định bởi công thức\n\n$$\n\\begin{cases} x_0 = 1 \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n = 2, 3, \\dot...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ xác định bởi công thức\n\n$$\n\\begin{cases} x_0 = m + 1, m > 0 \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n..."
+    },
+    {
+      "type": "similar",
+      "id_a": "198",
+      "id_b": "202",
+      "similarity": 0.95,
+      "preview_a": "**Ví dụ 9.** Tìm công thức tổng quát của dãy xác định bởi:\n\n$$\n\\begin{cases}\nu_n = 6u_{n-1} - 11u_{n-2} + 6u_{n-3} \\\\\nu_...",
+      "preview_b": "**Ví dụ 13.** Tìm công thức tổng quát của dãy $(u_n)_{n \\ge 0}$ xác định bởi:\n\n$$\n\\begin{cases} u_0 = 0 \\\\ u_{n+1} = \\fr..."
+    },
+    {
+      "type": "similar",
+      "id_a": "73",
+      "id_b": "76",
+      "similarity": 0.9432,
+      "preview_a": "Ví dụ 1. Cho dãy số $(a_n)$ xác định bởi:$$\na_1, a_2 > 0; a_{n+2} = \\sqrt{a_{n+1}} + \\sqrt{a_n}\n$$\n\nChứng minh $(a_n)$ c...",
+      "preview_b": "Ví dụ 4. Cho $a, b \\in (0,4)$. Dãy số $(x_n)$ được xác định bởi :\n\n$$\nx_0 = a; x_1 = b \\text{ và } x_{n+2} = \\frac{2(x_{..."
+    },
+    {
+      "type": "similar",
+      "id_a": "269",
+      "id_b": "271",
+      "similarity": 0.9421,
+      "preview_a": "1: Xác định số hang tổng quát của dãy số ($u_n$) được xác định bởi:\n\n$$\nu_1 = 1, \\quad u_n = u_{n-1} - 2 \\quad \\forall n...",
+      "preview_b": "3: Xác định số họng tổng quát của dãy ($u_n$) được xác định bởi:\n\n$$\nu_1 = -2, \\quad u_n = 3u_{n-1} - 1 \\quad \\forall n ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "23",
+      "similarity": 0.9412,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $(x_n)(n = 1,2,...)$ xác định bởi $x_1 = \\frac{1}{2}$ và $x_n = \\frac{\\sqrt{x_{n-1}^2 + 4x_{n-1}} + x_{n-1}}{..."
+    },
+    {
+      "type": "similar",
+      "id_a": "359",
+      "id_b": "360",
+      "similarity": 0.9402,
+      "preview_a": "Cho {$a_n$} và {$b_n$} là dãy số thỏa mãn:\n\na. $b_n > 0, \\forall n \\in \\mathbb{N}$\n\nb. $\\lim_{n \\to +\\infty} (b_1 + b_2 ...",
+      "preview_b": "Cho {$a_n$} và {$b_n$} là hai dãy thỏa mãn:\n\na. $b_n > 0, \\forall n \\in \\mathbb{N}$\n\nb. $\\lim_{n \\to +\\infty} (b_1 + b_2..."
+    },
+    {
+      "type": "similar",
+      "id_a": "370",
+      "id_b": "371",
+      "similarity": 0.9375,
+      "preview_a": "Bài 1: Cho dãy số $(a_n)$ thỏa $a_1 > 0, a_{n+1} = a_n + \\frac{1}{a_1 + a_2 + \\dots + a_n}$. Tính $\\lim_{n \\to \\infty} \\...",
+      "preview_b": "Bài 2: Cho dãy số $(x_n)$ thỏa $x_{n+2} = \\frac{x_n \\cdot x_{n+1}}{2x_n - x_{n+1}}$, $x_1 > x_2 > 0$. Tính $\\lim_{n \\to ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "12",
+      "similarity": 0.9362,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $(x_n)$ xác định bởi $x_1 = 3$; $x_n = \\frac{n+2}{3n}(x_{n-1} + 2), \\forall n \\ge 2$.\n\nChứng minh rằng dãy số..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "11",
+      "similarity": 0.9348,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $(x_n)$ xác định bởi\n\n$$\nx_1 = \\frac{3}{2}; x_{n+1} = x_n^2 - 2x_n + \\frac{2n+11}{n+5}, \\forall n \\ge 1.\n$$\n\n..."
+    },
+    {
+      "type": "similar",
+      "id_a": "16",
+      "id_b": "316",
+      "similarity": 0.9333,
+      "preview_a": "Cho dãy số $\\{x_n\\}_{n=1}^{+\\infty}$ được xác định bởi\n\n$$\nx_k = \\frac{1}{2!} + \\frac{2}{3!} + \\dots + \\frac{k}{(k+1)!},...",
+      "preview_b": "Cho dãy số {$x_k$} được xác định bởi:\n\n$$\nx_k = \\frac{1}{2!} + \\frac{2}{3!} + \\dots + \\frac{k}{(k+1)!}\n$$\n\n$$\nTính \\quad..."
+    },
+    {
+      "type": "similar",
+      "id_a": "118",
+      "id_b": "121",
+      "similarity": 0.9328,
+      "preview_a": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}^+$ thỏa mãn điều kiện:\n\n$$\nf(\\sqrt{xy}) = \\sqrt{f(x)f(y)}.\n$$\n\nChứng min...",
+      "preview_b": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}$ thỏa mãn điều kiện:\n\n$$\nf\\left(\\frac{x+y}{2}\\right) = \\frac{2f(x)f(y)}{..."
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "229",
+      "similarity": 0.9326,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Cho dãy số $\\{a_n\\}$ xác định bởi $a_1 > 0$ và $a_{n+1} = a_n + \\frac{n}{a_n}$ với mọi $n \\ge 1$. Chứng minh rằng\n\n$$\na_..."
+    },
+    {
+      "type": "similar",
+      "id_a": "67",
+      "id_b": "253",
+      "similarity": 0.9323,
+      "preview_a": "Xét dãy số {$x_n$}$_{n=1}$ cho bởi: $x_{n+2} = [(n-1)x_{n+1} + x_n]/n$. Chứng minh rằng với mọi giá trị ban đầu $x_1, x_...",
+      "preview_b": "Xét dãy số $\\{x_n\\}$ cho bởi công thức $x_{n+2} = \\frac{(n-1)x_{n+1} + x_n}{n}$.\n\nChứng minh rằng với mọi giá trị ban đầ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "43",
+      "id_b": "154",
+      "similarity": 0.9293,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1/2$, $x_{n+1} = x_n - x_n^2$. Chứng minh rằng $\\lim_{n \\to \\infty} nx_n =...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_1 = 0, x_2 = 1$ và\n\n$$\nx_n = \\frac{n}{2}x_{n-1} + \\frac{n(n-1)}{2}x_{n-2} + (-..."
+    },
+    {
+      "type": "similar",
+      "id_a": "29",
+      "id_b": "181",
+      "similarity": 0.9231,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_{n+1} = 1 + \\frac{1}{n(n+2)}; \\forall n = 1, 2, \\dots$. Tính $\\lim_{n \\to \\infty} \\pr...",
+      "preview_b": "Cho dãy số {$x_n$} xác định bởi $x_1 = 5, x_{n+1} = x_n^2 - 2, n \\ge 1$. Tính\n\n$$\n\\lim_{n \\to \\infty} \\frac{x_{n+1}}{x_1..."
+    },
+    {
+      "type": "similar",
+      "id_a": "3",
+      "id_b": "4",
+      "similarity": 0.9189,
+      "preview_a": "Cho dãy số $(u_n)(n = 1, 2, \\dots)$ thỏa mãn $0 < u_n < 1$ và $u_{n+1}(1 - u_n) > \\frac{1}{4}$ với mọi $n = 1, 2, \\dots$...",
+      "preview_b": "Cho dãy số $(u_n)(n = 1,2,...)$ thoả mãn $u_1 = 1$ và $u_{n+1} = \\frac{2(2u_n + 1)}{u_n + 3}$ với mọi $n = 1,2,...$\n\nTìm..."
+    },
+    {
+      "type": "similar",
+      "id_a": "308",
+      "id_b": "309",
+      "similarity": 0.9167,
+      "preview_a": "10: Tính tổng $S_n = 1 + 3 + 5 + \\dots + 2n - 1$, với $n$ là số tự nhiên $n \\ge 1$.",
+      "preview_b": "11:** Tính tổng $S_n = 1^2 + 2^2 + 3^2 + \\dots + n^2$ với $n$ là số tự nhiên $n \\ge 1$."
+    },
+    {
+      "type": "similar",
+      "id_a": "106",
+      "id_b": "107",
+      "similarity": 0.9163,
+      "preview_a": "Chứng minh rằng điều kiện cần và đủ để dãy số $\\{u_n\\}$ lập thành một cấp số cộng là dãy đã cho phải thỏa mãn hệ thức\n\n$...",
+      "preview_b": "Chứng minh rằng điều kiện cần và đủ để dãy các số dương $\\{u_n\\}$ lập thành một cấp số nhân là dãy đã cho phải thỏa mãn ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "118",
+      "id_b": "125",
+      "similarity": 0.912,
+      "preview_a": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}^+$ thỏa mãn điều kiện:\n\n$$\nf(\\sqrt{xy}) = \\sqrt{f(x)f(y)}.\n$$\n\nChứng min...",
+      "preview_b": "Cho hàm số $f(x)$ xác định và liên tục trên tập $\\mathbb{R}\\setminus\\{0\\}$ thỏa mãn điều kiện:\n\n$$\nf\\left(\\frac{2}{\\frac..."
+    },
+    {
+      "type": "similar",
+      "id_a": "29",
+      "id_b": "182",
+      "similarity": 0.9118,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_{n+1} = 1 + \\frac{1}{n(n+2)}; \\forall n = 1, 2, \\dots$. Tính $\\lim_{n \\to \\infty} \\pr...",
+      "preview_b": "Cho dãy số {$x_n$} xác định bởi $x_1 = 5, x_{n+1} = x_n^2 - 2, n \\ge 1$. Tính\n\n$$\n\\lim_{n \\to \\infty} \\frac{x_{n+1}}{x_1..."
+    },
+    {
+      "type": "similar",
+      "id_a": "418",
+      "id_b": "419",
+      "similarity": 0.9103,
+      "preview_a": "Bài 6: Với mỗi số nguyên dương $n$, xét phương trình $\\sum_{i=1}^{n} \\cos^i \\frac{x}{i} = nx$.\n\na. Chứng minh phương trì...",
+      "preview_b": "Bài 8:Với mỗi số nguyên dương $n$ xét phương trình $2x = \\sqrt{x+n} + \\sqrt{x+n+1}$\n\na. Chứng minh phương trình luôn có ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "126",
+      "id_b": "129",
+      "similarity": 0.9091,
+      "preview_a": "Cho $x_1 = a$. Tìm dãy số $\\{x_n\\}$ xác định bởi\n\n$$\nx_{n+1} = a_n x_n + b_n,\n$$\n\ntrong đó $a_n \\neq 0$ với mọi $n \\in \\...",
+      "preview_b": "Cho $x_1 = \\alpha > 0$. Tìm dãy số $\\{x_n\\}$ xác định bởi\n\n$$\nx_{n+1} = ax_n^2,\n$$\n\ntrong đó $a \\neq 0$."
+    },
+    {
+      "type": "similar",
+      "id_a": "148",
+      "id_b": "336",
+      "similarity": 0.9091,
+      "preview_a": "Cho dãy số {$x_n$} xác định bởi:\n\n$$\n\\begin{cases} x_1 = \\alpha, \\alpha > 1 \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n = 2,...",
+      "preview_b": "Cho dãy số {$u_n$} được định bởi:\n\n$$\n\\begin{cases} u_1 = 1 \\\\ u_2 = 2 \\\\ u_{n+2} = u_n + 2u_{n+1}, \\quad n \\in \\mathbb{..."
+    },
+    {
+      "type": "similar",
+      "id_a": "128",
+      "id_b": "133",
+      "similarity": 0.8986,
+      "preview_a": "Cho $g(n) > 0, \\forall n \\in \\mathbb{N}$, và $x_1 = \\alpha > 0$. Xác định dãy số $\\{x_n\\}$, biết rằng\n\n$$\nx_{n+1} = g(n)...",
+      "preview_b": "Cho $x_1 = a > -\\frac{3}{2}$. Xác định dãy số $\\{x_n\\}$ biết rằng\n\n$$\nx_{n+1} = \\frac{1}{2x_n + 3} - \\frac{3}{2}.\n$$"
+    },
+    {
+      "type": "similar",
+      "id_a": "24",
+      "id_b": "26",
+      "similarity": 0.8974,
+      "preview_a": "Cho dãy $(x_n)(n = 1,2,...)$ xác định bởi $x_1 = 1$ và $x_{n+1} = \\sqrt{x_n(x_n+1)(x_n+2)(x_n+3)+1}, n = 1,2,...$.\n\nĐặt ...",
+      "preview_b": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 1$ và $u_{n+1} = 1+u_1.u_2...u_n, n = 1,2,...$. Đặt $S_n = \\sum_{k=1}^{n} \\frac{1..."
+    },
+    {
+      "type": "similar",
+      "id_a": "277",
+      "id_b": "279",
+      "similarity": 0.8966,
+      "preview_a": "9:** Xác định CTTQ của dãy $(u_n)$: $u_0 = -1, u_1 = 3, u_n = 5u_{n-1} - 6u_{n-2} \\quad \\forall n \\ge 2$.",
+      "preview_b": "11: Xác định CTTQ của dãy: $(u_n): \\begin{cases} u_0 = 1; u_1 = 3 \\\\ u_n - 4u_{n-1} + 4u_{n-2} = 0 \\quad \\forall n = 2, ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "80",
+      "id_b": "81",
+      "similarity": 0.8955,
+      "preview_a": "Cho các số dương $u_1, u_2, \\dots, u_n$ tạo thành một cấp số cộng, công sai $d > 0$. Chứng minh rằng\n\n$$\nt_n = \\frac{1}{...",
+      "preview_b": "Cho các số dương $u_1, u_2, \\dots, u_n$ tạo thành một cấp số cộng, công sai $d > 0$. Tính tổng\n\n$$\nS = \\frac{1}{u_1 \\cdo..."
+    },
+    {
+      "type": "similar",
+      "id_a": "85",
+      "id_b": "91",
+      "similarity": 0.8955,
+      "preview_a": "Tìm dãy số $\\{x_n\\}$ thoả mãn điều kiện\n\n$$\nx_1 = \\alpha, x_2 = \\beta, \\ ax_{n+1} + bx_n + cx_{n-1} = 0, \\ n \\in \\mathbb...",
+      "preview_b": "Tìm dãy số $\\{x_n\\}$ thoả mãn các điều kiện\n\n$$\nx_1 = 4, \\quad x_{n+1} = \\frac{x_n^2 + 9}{2x_n}, \\qquad (1.6)\n$$14"
+    },
+    {
+      "type": "similar",
+      "id_a": "1",
+      "id_b": "429",
+      "similarity": 0.8936,
+      "preview_a": "Cho dãy số $(u_n)$ xác định bởi $u_1 = 2$ và $u_{n+1} = \\sqrt{u_n + 8} - \\sqrt{u_n + 3}$, $n=1,2,...$\n\nChứng minh rằng d...",
+      "preview_b": "Bài 3: Cho dãy số $(u_n)$ được xác định bởi $\\begin{cases} u_1 = 3 \\\\ u_{n+1}^3 - 3u_{n+1} = \\sqrt{2+u_n}, \\forall n \\ge..."
+    },
+    {
+      "type": "similar",
+      "id_a": "43",
+      "id_b": "155",
+      "similarity": 0.8936,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1/2$, $x_{n+1} = x_n - x_n^2$. Chứng minh rằng $\\lim_{n \\to \\infty} nx_n =...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ xác định bởi $x_0 = 1, x_1 = 2$ và\n\n$$\nx_{n+1} = x_n + \\frac{x_{n-1}}{(1+x_{n-1})^2}, \\forall n > 1..."
+    },
+    {
+      "type": "similar",
+      "id_a": "439",
+      "id_b": "458",
+      "similarity": 0.8936,
+      "preview_a": "Bài 7: Cho dãy số $(a_n)$ xác định bởi $a_0 > 0; a_{n+1} = \\frac{a_n}{\\sqrt{1 + 2020 \\cdot a_n^2}}; n = 0;1;2;...$. Chứn...",
+      "preview_b": "Bài 24: Cho dãy số $(a_n)$ xác định bởi $a_1 = 1, a_{n+1} = \\frac{a_n}{\\sqrt{a_n} + 1}, \\forall n \\ge 1$.\n\nChứng minh rằ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "277",
+      "id_b": "294",
+      "similarity": 0.8929,
+      "preview_a": "9:** Xác định CTTQ của dãy $(u_n)$: $u_0 = -1, u_1 = 3, u_n = 5u_{n-1} - 6u_{n-2} \\quad \\forall n \\ge 2$.",
+      "preview_b": "4: Xác định CTTQ của dãy $(u_n)$:\n$$\n\\begin{cases}\nu_1 = \\frac{3}{2} \\\\\nu_n = 2 - u_{n-1}^2 \\quad \\forall n \\ge 2\n\\end{c..."
+    },
+    {
+      "type": "similar",
+      "id_a": "370",
+      "id_b": "372",
+      "similarity": 0.8923,
+      "preview_a": "Bài 1: Cho dãy số $(a_n)$ thỏa $a_1 > 0, a_{n+1} = a_n + \\frac{1}{a_1 + a_2 + \\dots + a_n}$. Tính $\\lim_{n \\to \\infty} \\...",
+      "preview_b": "Bài 3: Cho dãy số $(x_n)$ thỏa $x_1, x_2 > 0$ và $x_{n+2} = \\frac{4^{n+1}}{2^n + x_n} + 2^{n+1}$, tính $\\lim_{n \\to \\inf..."
+    },
+    {
+      "type": "similar",
+      "id_a": "370",
+      "id_b": "479",
+      "similarity": 0.8923,
+      "preview_a": "Bài 1: Cho dãy số $(a_n)$ thỏa $a_1 > 0, a_{n+1} = a_n + \\frac{1}{a_1 + a_2 + \\dots + a_n}$. Tính $\\lim_{n \\to \\infty} \\...",
+      "preview_b": "Bài 15: Cho dãy số $(u_n)$ thỏa $u_1 = 1; u_2 = 42; u_{n+2} = 3u_n + \\sqrt{8(u_{n+1}^2 + u_n^2)}$, $n = 1; 2; 3$... Tính..."
+    },
+    {
+      "type": "similar",
+      "id_a": "43",
+      "id_b": "147",
+      "similarity": 0.8913,
+      "preview_a": "Cho dãy số $\\{x_n\\}$ được xác định bởi $x_0 = 1/2$, $x_{n+1} = x_n - x_n^2$. Chứng minh rằng $\\lim_{n \\to \\infty} nx_n =...",
+      "preview_b": "Cho dãy số $\\{x_n\\}$ xác định bởi:\n\n$$\n\\begin{cases} x_0 = 1, \\\\ x_n = x_{n-1} + \\frac{1}{x_{n-1}}, n = 2, 3, \\dots \\end..."
+    },
+    {
+      "type": "similar",
+      "id_a": "151",
+      "id_b": "152",
+      "similarity": 0.8902,
+      "preview_a": "Cho dãy số {$x_n$}, $n \\in \\mathbb{N}$, được xác định bởi\n\n$$\nx_0 = 1, x_n = \\frac{-1}{3 - x_{n-1}}, \\forall n \\in \\math...",
+      "preview_b": "Cho dãy số {$x_n$}, $n \\in \\mathbb{N}^*$ được xác định bởi\n\n$$\nx_1 = \\alpha, x_{n+1} = \\frac{-\\alpha}{b + cx_n}, \\forall..."
+    },
+    {
+      "type": "similar",
+      "id_a": "5",
+      "id_b": "160",
+      "similarity": 0.8889,
+      "preview_a": "Cho dãy số $(x_n)(n = 1,2,...)$ xác định như sau $$ \\begin{cases} x_1 = 1 \\\\ x_{n+1} = \\sqrt{x_n^2 + x_n + 1} - \\sqrt{x_...",
+      "preview_b": "Cho dãy số {$x_n$} xác định như sau\n\n$$\nx_n = \\left(1 + \\frac{1}{n^2}\\right) \\left(1 + \\frac{2}{n^2}\\right) \\cdots \\left..."
+    },
+    {
+      "type": "similar",
+      "id_a": "192",
+      "id_b": "195",
+      "similarity": 0.8889,
+      "preview_a": "**Ví dụ 3.** Tính số hạng tổng quát của dãy $(f_n)_{n \\ge 0}$ xác định bởi $f_0 = 0, f_1 = 1$ và $f_{n+2} = f_{n+1} + f_...",
+      "preview_b": "**Ví dụ 6.** Tính số hạng tổng quát của dãy $(P_n)_{n \\ge 0}$ xác định bởi\n\n$$\n\\begin{cases} P_0 = 0, P_1 = 1 \\\\ P_{n+2}..."
+    },
+    {
+      "type": "similar",
+      "id_a": "275",
+      "id_b": "295",
+      "similarity": 0.8889,
+      "preview_a": "7: Tìm CTTQ của dãy $(u_n)$: $$ \\begin{cases} u_1 = -2 \\\\ u_n = 5u_{n-1} + 2.3^n - 6.7^n + 12 \\end{cases} ; n = 2,3,... ...",
+      "preview_b": "5: Tìm CTTQ của dãy số $(u_n)$:\n$$\n\\begin{cases}\nu_1 = \\frac{1}{2} \\\\\nu_n = \\frac{\\sqrt{2 - 2\\sqrt{1 - u_{n-1}^2}}}{2} \\..."
+    },
+    {
+      "type": "similar",
+      "id_a": "281",
+      "id_b": "293",
+      "similarity": 0.8889,
+      "preview_a": "13:Xác định CTTQ của dãy $(u_n) : \\begin{cases} u_0 = 1; & u_1 = 4 \\\\ u_n - 3u_{n-1} + 2u_{n-2} = 2n + 1 & \\forall n \\ge...",
+      "preview_b": "3: Xác định CTTQ của dãy $(u_n) : u_1 = \\frac{3}{\\sqrt{6}}$ và\n\n$$\nu_n = 24u_{n-1}^3 - 12\\sqrt{6}u_{n-1}^2 + 15u_{n-1} -..."
+    },
+    {
+      "type": "similar",
+      "id_a": "118",
+      "id_b": "124",
+      "similarity": 0.888,
+      "preview_a": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}^+$ thỏa mãn điều kiện:\n\n$$\nf(\\sqrt{xy}) = \\sqrt{f(x)f(y)}.\n$$\n\nChứng min...",
+      "preview_b": "Cho hàm số $f(x)$ xác định và liên tục trên tập $\\mathbb{R}\\setminus\\{0\\}$ thỏa mãn điều kiện:\n\n$$\nf\\left(\\frac{2}{x} + ..."
+    },
+    {
+      "type": "similar",
+      "id_a": "118",
+      "id_b": "123",
+      "similarity": 0.8879,
+      "preview_a": "Cho hàm số $f(x)$ xác định trên tập $\\mathbb{R}^+$ thỏa mãn điều kiện:\n\n$$\nf(\\sqrt{xy}) = \\sqrt{f(x)f(y)}.\n$$\n\nChứng min...",
+      "preview_b": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và thỏa mãn điều kiện\n\n$$\nf(\\sqrt{xy}) = \\frac{f(x) + f(y)}{2}, \\quad \\fora..."
+    },
+    {
+      "type": "similar",
+      "id_a": "275",
+      "id_b": "298",
+      "similarity": 0.8837,
+      "preview_a": "7: Tìm CTTQ của dãy $(u_n)$: $$ \\begin{cases} u_1 = -2 \\\\ u_n = 5u_{n-1} + 2.3^n - 6.7^n + 12 \\end{cases} ; n = 2,3,... ...",
+      "preview_b": "8: Tìm CTTQ của dãy số $(u_n): \\begin{cases} u_1 = \\sqrt{3} \\\\ u_n = \\frac{u_{n-1}}{1 + \\sqrt{1 + u_{n-1}^2}} \\quad \\for..."
+    },
+    {
+      "type": "similar",
+      "id_a": "144",
+      "id_b": "335",
+      "similarity": 0.8824,
+      "preview_a": "Cho dãy số $\\{x_n\\}$, $n=1, 2, \\dots$ xác định như sau:\n\n$$\n\\begin{cases}\nx_1 = 1 \\\\\nx_{n+1} = x_n + \\frac{x_n^2}{1999}\n...",
+      "preview_b": "Cho dãy $\\{u_n\\}$ được xác định như sau:\n$$\n\\begin{cases}\nn_0 = 2000 \\\\\nu_{n+1} = u_n + \\frac{1}{u_n^2} \\quad ; \\ n = 0,..."
+    },
+    {
+      "type": "similar",
+      "id_a": "281",
+      "id_b": "283",
+      "similarity": 0.8814,
+      "preview_a": "13:Xác định CTTQ của dãy $(u_n) : \\begin{cases} u_0 = 1; & u_1 = 4 \\\\ u_n - 3u_{n-1} + 2u_{n-2} = 2n + 1 & \\forall n \\ge...",
+      "preview_b": "15: Xác định CTTQ của dãy ($u_n$) :** $\\begin{cases} u_0 = -1; & u_1 = 3 \\\\ u_n - 5u_{n-1} + 6u_{n-2} = 5 \\cdot 2^n; & \\..."
+    }
+  ]
+}
