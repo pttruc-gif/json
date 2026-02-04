@@ -541,8 +541,8 @@
     },
     {
         "id": 109,
-        "problem": "Một cặpizm mỗi tháng sinh một lần, cho một cấpizm con (một đực, một cái). Cặpizm mới sinh ra sau hai tháng lại bắt đầu sinh một cấp mới. Hỏi sau một năm sẽ có bao nhiêu conizm, nếu đầu năm ta có một cấpizm và trong một năm không có conizm nào bị chết.25",
-        "answer": "Kí hiệu $F(n)$ là cặp紧密 sau tháng thứ $n$ kể từ đầu năm. Nhận xét rằng sau tháng thứ $n$ thì sẽ có $F(n)$ cặp ban đầu, cộng thêm số cặp do các cặp đã có sau tháng thứ $(n-1)$ sinh ra (có $F(n-1)$). Như vậy\n\n$$\nF(n + 2) = F(n + 1) + F(n), \\forall n \\in \\mathbb{N}^*.\n$$\n\nTrong đó $F_1 = 1, F_2 = 1$. Các số $F(n)$ được gọi là các số Fibonacci. Trong các bài toán sau đây, $F(n)$ dùng để kí hiệu số Fibonacci thứ $n$."
+        "problem": "Một cặp thỏ mỗi tháng sinh một lần, cho một cặp thỏ con (một đực, một cái). Cặp thỏ mới sinh ra sau hai tháng lại bắt đầu sinh một cấp mới. Hỏi sau một năm sẽ có bao nhiêu con thỏ, nếu đầu năm ta có một cặp thỏ và trong một năm không có con thỏ nào bị chết.",
+        "answer": "Kí hiệu $F(n)$ là cặp thỏ sau tháng thứ $n$ kể từ đầu năm. Nhận xét rằng sau tháng thứ $n$ thì sẽ có $F(n)$ cặp ban đầu, cộng thêm số cặp do các cặp đã có sau tháng thứ $(n-1)$ sinh ra (có $F(n-1)$). Như vậy\n\n$$\nF(n + 2) = F(n + 1) + F(n), \\forall n \\in \\mathbb{N}^*.\n$$\n\nTrong đó $F_1 = 1, F_2 = 1$. Các số $F(n)$ được gọi là các số Fibonacci. Trong các bài toán sau đây, $F(n)$ dùng để kí hiệu số Fibonacci thứ $n$."
     },
     {
         "id": 110,

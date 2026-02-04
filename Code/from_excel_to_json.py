@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-def convert_excel_to_json(file_path, output_name="dataset.json"):
+def convert_excel_to_json(file_path, output_name="dataset_fix.json"):
     # 1. Đọc file Excel
     # Nếu file của bạn có nhiều sheet, bạn có thể thêm sheet_name='tên_sheet'
     try:
@@ -39,4 +39,4 @@ def convert_excel_to_json(file_path, output_name="dataset.json"):
 
 # Thay 'ket_qua_nguyen_ban.xlsx' bằng tên file thực tế của bạn
 # Sửa dòng 37 thành:
-convert_excel_to_json(r'C:\Users\TL\Desktop\THUCTAP\OCR\Truc\ket_qua_nguyen_ban.xlsx')
+convert_excel_to_json(r'C:\Users\TL\Desktop\THUCTAP\OCR\Truc\Excel\ket_qua_nguyen_ban.xlsx')
